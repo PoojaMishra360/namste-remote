@@ -1,1 +1,1 @@
-# namste-remote
+# Namste-Javascript

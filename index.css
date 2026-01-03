@@ -47,3 +47,13 @@ display: flex;
 flex-wrap: wrap;
 
 }
+
+.filter-btn {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}

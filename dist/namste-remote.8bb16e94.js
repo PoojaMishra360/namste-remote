@@ -34976,7 +34976,7 @@ $RefreshReg$(_c, "RestroCard");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2lqpD","../utils/constant":"fatiS","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx","react":"5Zadg","react-router-dom":"bb0O0"}],"19u0n":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"2lqpD","react":"5Zadg","react-router-dom":"bb0O0","../utils/constant":"fatiS","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx"}],"19u0n":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const resObject = [
@@ -35010,6 +35010,8 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _user = require("./User");
 var _userDefault = parcelHelpers.interopDefault(_user);
+var _userClass = require("./UserClass");
+var _userClassDefault = parcelHelpers.interopDefault(_userClass);
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
@@ -35017,25 +35019,35 @@ const About = ()=>{
                 children: "About Us"
             }, void 0, false, {
                 fileName: "src/components/About.js",
-                lineNumber: 7,
+                lineNumber: 8,
                 columnNumber: 15
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 children: "This is Namste React Course"
             }, void 0, false, {
                 fileName: "src/components/About.js",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _userDefault.default), {}, void 0, false, {
                 fileName: "src/components/About.js",
-                lineNumber: 9,
+                lineNumber: 11,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                fileName: "src/components/About.js",
+                lineNumber: 12,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _userClassDefault.default), {}, void 0, false, {
+                fileName: "src/components/About.js",
+                lineNumber: 14,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/About.js",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 10
     }, undefined);
 };
@@ -35049,7 +35061,7 @@ $RefreshReg$(_c, "About");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2lqpD","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx","react":"5Zadg","./User":"lD6Ga"}],"lD6Ga":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"2lqpD","react":"5Zadg","./User":"lD6Ga","./UserClass":"5z0yD","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx"}],"lD6Ga":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$c6b1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$c6b1.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -35064,14 +35076,14 @@ const User = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "User Component"
+                children: "User Functional based  Component"
             }, void 0, false, {
                 fileName: "src/components/User.js",
                 lineNumber: 4,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "This is User Component"
+                children: "This is User  Functional Component"
             }, void 0, false, {
                 fileName: "src/components/User.js",
                 lineNumber: 5,
@@ -35095,7 +35107,100 @@ $RefreshReg$(_c, "User");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2lqpD","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx"}],"efYUU":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"2lqpD","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx"}],"5z0yD":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$3aaf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$3aaf.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3aaf.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+class UserClass extends (0, _reactDefault.default).Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            userInfo: {
+                name: "Dummy Name",
+                location: "Dummy Location"
+            }
+        };
+    }
+    async componentDidMount() {
+        const data = await fetch("https://api.github.com/users/akshaymarch7");
+        const json = await data.json();
+        this.setState({
+            userInfo: json
+        });
+    }
+    componentWillUnmount() {
+        // cleanup work
+        console.log("component will unmount");
+    }
+    render() {
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    children: [
+                        "Class Component based ",
+                        this.state.userInfo.name,
+                        " "
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/UserClass.js",
+                    lineNumber: 30,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    children: "This is User Component defined using Class"
+                }, void 0, false, {
+                    fileName: "src/components/UserClass.js",
+                    lineNumber: 31,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                    children: [
+                        "Location: ",
+                        this.state.userInfo.location
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/UserClass.js",
+                    lineNumber: 32,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                    onClick: ()=>{
+                        this.setState({
+                            count: this.state.count + 1,
+                            count1: this.state.count1 + 2
+                        });
+                    },
+                    children: "Increment Count"
+                }, void 0, false, {
+                    fileName: "src/components/UserClass.js",
+                    lineNumber: 34,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/UserClass.js",
+            lineNumber: 29,
+            columnNumber: 13
+        }, this);
+    }
+}
+exports.default = UserClass;
+
+  $parcel$ReactRefreshHelpers$3aaf.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"2lqpD","react":"5Zadg","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx"}],"efYUU":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$e813 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$e813.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -35143,7 +35248,7 @@ $RefreshReg$(_c, "ContactUs");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2lqpD","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx","react":"5Zadg"}],"hBE6W":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"2lqpD","react":"5Zadg","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx"}],"hBE6W":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$a7b5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$a7b5.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -35211,7 +35316,7 @@ $RefreshReg$(_c, "Error");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2lqpD","react-router-dom":"bb0O0","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx","react":"5Zadg"}],"lkz5u":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"2lqpD","react":"5Zadg","react-router-dom":"bb0O0","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx"}],"lkz5u":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$28de = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$28de.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -35307,5 +35412,5 @@ $RefreshReg$(_c, "RestrarantMenu");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2lqpD","react":"5Zadg","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx","react-router-dom":"bb0O0","../utils/constant":"fatiS"}]},["hYwho","jowbr"], "jowbr", "parcelRequire8be6", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"2lqpD","react":"5Zadg","react-router-dom":"bb0O0","../utils/constant":"fatiS","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx"}]},["hYwho","jowbr"], "jowbr", "parcelRequire8be6", {}, null, null, "http://localhost:1234")
 

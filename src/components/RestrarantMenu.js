@@ -10,6 +10,15 @@ const RestrarantMenu = () => {
  useEffect(() => {  
     console.log("RestrarantMenu useEffect");
     fetchMenu();
+    setInterval(() => {
+        console.log("Interval from RestrarantMenu");
+       }, 1000);
+
+       // cleanup function when component unmounts (when we navigate away or close the component or page leaves)
+       return () => {
+        clearInterval();
+        console.log("RestrarantMenu component unmounted");
+       }
  }, []);
 
 

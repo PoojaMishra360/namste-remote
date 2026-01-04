@@ -35008,6 +35008,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _user = require("./User");
+var _userDefault = parcelHelpers.interopDefault(_user);
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
@@ -35023,6 +35025,11 @@ const About = ()=>{
             }, void 0, false, {
                 fileName: "src/components/About.js",
                 lineNumber: 8,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _userDefault.default), {}, void 0, false, {
+                fileName: "src/components/About.js",
+                lineNumber: 9,
                 columnNumber: 9
             }, undefined)
         ]
@@ -35042,7 +35049,53 @@ $RefreshReg$(_c, "About");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"2lqpD","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx","react":"5Zadg"}],"efYUU":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"2lqpD","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx","react":"5Zadg","./User":"lD6Ga"}],"lD6Ga":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c6b1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$c6b1.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$c6b1.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const User = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "User Component"
+            }, void 0, false, {
+                fileName: "src/components/User.js",
+                lineNumber: 4,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "This is User Component"
+            }, void 0, false, {
+                fileName: "src/components/User.js",
+                lineNumber: 5,
+                columnNumber: 5
+            }, undefined),
+            " "
+        ]
+    }, void 0, true, {
+        fileName: "src/components/User.js",
+        lineNumber: 3,
+        columnNumber: 1
+    }, undefined);
+};
+_c = User;
+exports.default = User;
+var _c;
+$RefreshReg$(_c, "User");
+
+  $parcel$ReactRefreshHelpers$c6b1.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"2lqpD","@parcel/transformer-js/src/esmodule-helpers.js":"hDUPi","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"gmvyx"}],"efYUU":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$e813 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$e813.init();
 var prevRefreshReg = globalThis.$RefreshReg$;

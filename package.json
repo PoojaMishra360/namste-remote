@@ -4,6 +4,7 @@
   "description": "food proejrct",
   "scripts": {
     "start": "npx parcel index.html --port 1234 --no-source-maps",
+    "build": "npx parcel build index.html",
     "test": "jest"
   },
   "author": "",

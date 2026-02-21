@@ -1,5 +1,5 @@
 import React from "react";
-
+import UserContext from "../utils/UserContext";
   class UserClass extends React.Component {
 
     constructor(props) {
@@ -41,6 +41,12 @@ import React from "react";
                         count1: this.state.count1 + 2
                     });
                 } }>Increment Count</button>
+
+                <UserContext.Consumer>
+                    { (user) => (
+                        <h4 className="px-4">Email: {user.user.email} </h4>
+                    ) }
+                </UserContext.Consumer>
             </div>
         );  
     }

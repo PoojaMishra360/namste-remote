@@ -1,10 +1,13 @@
-import RestroCard from "./RestroCard"; // default import
+import RestroCard ,{withPromotedLabel} from "./RestroCard"; // default import
 import resObject from "../utils/mockData";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect ,useContext} from "react";
+import UserContext from "../utils/UserContext";
 const Body = () => {
   const [resList, setResList] = useState([]);
   const [resFilterList, setResFilterList] = useState([]);
   const [searchText, setSearchText] = useState("");
+  // higher order component
+  const PromotedRestroCard = withPromotedLabel(RestroCard);
 
   // Case 1 if no dependency array is provided, the useEffect will run after every render of the component.
   // Case 2 if an empty dependency array is provided, the useEffect will run only once after the initial render of the component.
@@ -31,8 +34,9 @@ const Body = () => {
     );
     setResFilterList(filteredList);
   };
-
+  const {user , setUser} = useContext(UserContext);
   return resList.length == 0 ? (
+    
     <h1> data loaded </h1>
   ) : (
     <div className="body">
@@ -55,9 +59,19 @@ const Body = () => {
         >
           Top Rated Restaurants
         </button>
+
+        <input type="text"
+        value={user.name}
+          className="filter-btn" onChange={(e) => {
+            setUser({name: e.target.value, email: user.email});
+          }}
+          ></input>
+
       </div>
       <div className="res-container">
         {resFilterList.map((res) => (
+          res.promoted ?
+          <PromotedRestroCard key={res.id} resData={res} /> :
           <RestroCard key={res.id} resData={res} />
         ))}
       </div>
